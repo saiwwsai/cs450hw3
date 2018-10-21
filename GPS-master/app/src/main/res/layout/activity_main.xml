@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arbutus"
+        android:padding="15dp"
+        android:text="Your Current Location:"
+        android:textSize="18sp" />
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button"
+        android:layout_below="@+id/textView"
+        android:layout_margin="5dp"
+        android:layoutAnimation="@android:anim/fade_in"
+        android:scrollbars="none"
+        android:stackFromBottom="false"
+        android:textFilterEnabled="true"
+        tools:listheader="@android:color/holo_green_light" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:shadowColor="@android:color/holo_green_dark"
+        android:text="Update" />
+
+</RelativeLayout>

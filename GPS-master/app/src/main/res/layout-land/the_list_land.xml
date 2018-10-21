@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_column="0"
+            android:layout_row="0"
+            android:fontFamily="@font/wellfleet"
+            android:text="Current Location"
+            android:textColor="#153F0D" />
+
+        <TextView
+
+            android:layout_column="0"
+            android:layout_row="1"
+            android:fontFamily="@font/wellfleet"
+            android:text="Distance between previous 2 points"
+            android:textColor="#153F0D"
+            />
+
+        <TextView
+
+            android:layout_column="0"
+            android:layout_row="2"
+            android:fontFamily="@font/wellfleet"
+            android:text="Total Distance"
+            android:textColor="#153F0D"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:fontFamily="@font/wellfleet"
+            android:text="Instantanous Velocity"
+            android:textColor="#153F0D" />
+
+        <TextView
+
+            android:layout_column="0"
+            android:layout_row="4"
+            android:fontFamily="@font/wellfleet"
+            android:text="Velocity between two points"
+            android:textColor="#153F0D" />
+
+        <TextView
+
+            android:layout_column="0"
+            android:layout_row="5"
+            android:fontFamily="@font/wellfleet"
+            android:text="Overall Velocity"
+            android:textColor="#153F0D" />
+
+        <TextView
+
+            android:id="@+id/lat"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:fontFamily="@font/wellfleet"
+            android:padding="4dp"
+            android:text="lat"
+            android:textColor="#315711"/>
+
+        <TextView
+
+            android:id="@+id/lon"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:padding="4dp"
+            android:fontFamily="@font/wellfleet"
+            android:text="lon"
+            android:textColor="#315711"/>
+
+        <TextView
+            android:id="@+id/distance2points"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:padding="4dp"
+            android:fontFamily="@font/wellfleet"
+            android:text="d2"
+            android:textColor="#315711"/>
+
+        <TextView
+            android:id="@+id/totaldistance"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:padding="4dp"
+            android:fontFamily="@font/wellfleet"
+            android:text="td"
+            android:textColor="#315711"/>
+
+        <TextView
+            android:id="@+id/instavelocity"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:padding="4dp"
+            android:fontFamily="@font/wellfleet"
+            android:text="iv"
+            android:textColor="#315711"
+            />
+
+        <TextView
+            android:id="@+id/velocity2points"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:padding="4dp"
+            android:fontFamily="@font/wellfleet"
+            android:text="v2"
+            android:textColor="#315711"/>
+
+        <TextView
+            android:id="@+id/totalvelocity"
+            android:layout_column="1"
+            android:layout_row="5"
+            android:padding="4dp"
+            android:fontFamily="@font/wellfleet"
+            android:text="tv"
+            android:textColor="#315711"/>
+
+
+
+    </GridLayout>
+
+</FrameLayout>
